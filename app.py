@@ -161,7 +161,7 @@ if dashOptions == 'Vaccines Dashboard':
     multi_lc2 = alt.Chart(df2).transform_fold(
     option_selectbox,
     ).mark_bar().encode(
-    x=alt.X('value:Q', title='vac'),
+    x=alt.X('value:Q', title='Doses'),
     y='State:N',
     color='key:N',
     tooltip=['Janssen:Q', 'Moderna:Q', 'Pfizer:Q']
