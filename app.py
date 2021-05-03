@@ -164,9 +164,9 @@ if dashOptions == 'Vaccines Dashboard':
     x=alt.X('value:Q', title='Doses'),
     y='State:N',
     color='key:N',
-    tooltip=['Janssen:Q', 'Moderna:Q', 'Pfizer:Q']
+    tooltip=['Janssen:Q', 'Moderna:Q', 'Pfizer:Q', 'Unknown Manufacturer:Q']
     ).properties(
-    title='Vaccine Doses Administered',
+    title='Vaccines Administered per State',
     width=700,
     height=700
     ).interactive()
