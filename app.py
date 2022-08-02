@@ -39,7 +39,7 @@ st.title('Covid19 Visualizations')
 welcome = ("""
     ### Welcome! Use the panel on the left to navigate to different dashboards.
     
-    Note: The data only pertains to how Covid19 has effected the United States.
+    Note: The data only pertains to how Covid19 has effected the United States in 2020.
 """)
 
 st.write(welcome)
